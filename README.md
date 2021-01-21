@@ -1,5 +1,7 @@
 # node-template
 
+> Starter template for Node projects with Express, Babel, ESLint, Prettier, Husky and Nodemon
+
 ## Features
 
 - ES6 using Babel
@@ -8,6 +10,7 @@
 - Pre-commit hooks using Lint-Staged with Husky
 - Live reloading using Nodemon
 - .gitignore for Node
+- Express installed
 
 ## How to remove Express
 
