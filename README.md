@@ -8,3 +8,21 @@
 - Pre-commit hooks using Lint-Staged with Husky
 - Live reloading using Nodemon
 - .gitignore for Node
+
+## Installing
+
+```
+yarn --dev
+```
+
+## Running
+
+```
+yarn start
+```
+
+## Building
+
+```
+yarn build
+```
