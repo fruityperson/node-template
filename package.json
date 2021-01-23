@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "main": "server/index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "build": "./node_modules/.bin/babel server --out-dir dist",
-    "start": "node server"
+    "start": "node server --async-stack-traces"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
     "eslint": "^7.18.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.2.0",
