@@ -5,7 +5,10 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "node server --async-stack-traces"
+    "start": "node server --async-stack-traces",
+    "watch": "nodemon yarn start",
+    "lint": 
+      "eslint server/** --cache --fix && prettier server/** --write --ignore-unknown"
   },
   "devDependencies": {
     "eslint": "^7.18.0",
